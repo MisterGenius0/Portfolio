@@ -1,0 +1,48 @@
+/* Color pallet https://colorhunt.co/palette/264587 */
+
+
+body
+{
+    
+    margin: 0%;
+    background-color: #feffde;
+}
+
+div
+{
+    padding: 20px;
+    background-color: #abcaa5;
+}
+
+.TitleLine
+{
+    margin-top: 0px;
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 85%;
+    border-color: #52734d;
+}
+
+.SubTitleLine
+{
+    border-style: dashed none none;
+    border-width: 10px;
+    width: 50%;
+    border-color: #a9c7a4;
+}
+
+.Title
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 70px;
+    text-align: center;
+    color: #52734d;
+}
+
+.SubTitle
+{
+    font-size: 45px;
+    text-align: center;
+    color: #42773a;
+}
