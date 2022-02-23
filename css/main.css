@@ -1,1 +1,38 @@
-/* Color pallet https://colorhunt.co/palette/264587 */
+/* Color pallet https://colorhunt.co/palette/362706464e2eacb992e9e5d6 */
+
+
+hr
+{
+    height: 0;
+    width: 20%;
+    border-width: 5px;
+    
+    
+    border-style: dotted none none none;
+    
+    color: #362706;
+}
+
+body
+{
+    background-color: #E9E5D6;
+}
+
+h1
+{
+    color: #464E2E;
+}
+
+h2
+{
+    color: #ACB992;
+}
+
+h3
+{
+    color: #ACB992;
+}
+h4
+{
+    color: #ACB992;
+}
