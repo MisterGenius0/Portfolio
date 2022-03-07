@@ -16,6 +16,7 @@ hr
 body
 {
     background-color: #6a9361;
+    text-align: center;
 }
 
 h1
@@ -81,8 +82,8 @@ p
 .About
 {
     text-align: center;
+    margin: 0 auto;
     background-color: #6a9361;
-    margin: 0;
 }
 .Cloud_1
 {
@@ -105,4 +106,10 @@ p
     position: relative;
     top: 3px;
     margin: 0 auto 0;
+}
+
+.HobbiesText
+{
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
