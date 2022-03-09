@@ -1,115 +1,48 @@
-/* Color pallet https://colorhunt.co/palette/362706464e2eacb992e9e5d6 */
-
-
-hr
+﻿.NavBar
 {
-    height: 0;
-    width: 90%;
-    border-width: 5px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    margin: 0 auto auto;
+    min-height: 11vh;
+    overflow: auto;
+    background-color: #52734D;
+}
+.NavBar-Image
+{
+    float: left;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: .1rem;
+    margin: .5rem;
+}
+.NavBarButton
+{
+    float: right;
+    margin: 0 .3rem;
+    font-size: 1.5rem;
+    transform: translate(0, -.6rem);
     
-    
-    border-style: dotted none none none;
-    
-    color: #362706;
+}
+.NavBarText
+{
+    position: relative;
+    text-align: right;
+    margin: 30px 0;
+}
+.NavBar-Image-Text
+{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+   transform: translate(0, 1.6rem);
+    font-size: 2rem;
 }
 
 body
 {
-    background-color: #6a9361;
     text-align: center;
-}
-
-h1
-{
-    color: #464E2E;
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-}
-
-h2
-{
-    color: #697058;
-    font-family: 'Merriweather', serif;
-}
-
-h3
-{
-    color: #ACB992;
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-}
-h4
-{
-    color: #ACB992;
-    font-family: 'Merriweather', serif;
-}
-p
-{
-    font-family: 'Nunito', sans-serif;
-}
-.header
-{
-    background-color: #44888f;
-    text-align: center;
-    padding: 10px;
-    scale: 2;
-}
-
-.Title
-{
-    background-color: #7cb8bd;
-    text-align: center;
-    margin: 10px 0 0;
-    padding: 10px 0 0;
-}
-.Projects
-{
-    text-align: center;
-}
-.Jobs
-{
-    text-align: center;
-}
-.Skills
-{
-    text-align: center;
-}
-.background
-{
+    background-color: #FEFFDE;
     margin: 0;
-}
-
-.About
-{
-    text-align: center;
-    margin: 0 auto;
-    background-color: #6a9361;
-}
-.Cloud_1
-{
-    display: inline-block;
-    position: absolute;
-    right: 70%;
-    bottom: 55%;
-    scale: 2;
-}
-.Cloud_2
-{
-    display: inline-block;
-    position: absolute;
-    left: 60%;
-    bottom: 65%;
-    scale: 1.5;
-}
-.Mountain
-{
-    position: relative;
-    top: 3px;
-    margin: 0 auto 0;
-}
-
-.HobbiesText
-{
-    margin: 100px auto 100px auto;
-    text-align: left;
 }
