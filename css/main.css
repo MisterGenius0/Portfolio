@@ -1,48 +1,121 @@
-﻿.NavBar
-{
-    text-align: left;
-    width: auto;
-    height: auto;
-    margin: 0 auto auto;
-    min-height: 11vh;
-    overflow: auto;
-    background-color: #52734D;
-}
-.NavBar-Image
-{
-    float: left;
-    position: relative;
-    width: 5rem;
-    height: 5rem;
-    border-radius: .1rem;
-    margin: .5rem;
-}
-.NavBarButton
-{
-    float: right;
-    margin: 0 .3rem;
-    font-size: 1.5rem;
-    transform: translate(0, -.6rem);
-    
-}
-.NavBarText
-{
-    position: relative;
-    text-align: right;
-    margin: 30px 0;
-}
-.NavBar-Image-Text
-{
-    display: inline-block;
-    position: relative;
-    margin: 0;
-   transform: translate(0, 1.6rem);
-    font-size: 2rem;
-}
+﻿
+/*color*/
+/*https://color.adobe.com/create/color-wheel*/
+/*#57DE57*/
+/*monochromatic*/
 
 body
 {
-    text-align: center;
-    background-color: #FEFFDE;
     margin: 0;
 }
+
+.Container
+{
+    padding: .5rem 2rem;
+}
+
+/*NavBar*/
+.NavBar .Container
+{
+    padding: .5rem 2rem;
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0;
+    background-color: #3D943A;
+}
+
+.NavBar
+{
+    
+}
+
+.NavBar-Title
+{
+    font-size: 2rem;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*NavBar Links*/
+.NavBar-Links
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.NavBar-Link
+{
+    color: #7BE077;
+    margin: 1rem;
+    text-decoration: none;
+}
+.NavBar-Link:hover
+{
+    color: #ffff;
+}
+
+/*Title*/
+
+.Title
+{
+    text-align: center;
+}
+.Title-Box
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Title .Ethan-Icon
+{
+    padding: 5% 3%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.Title .Text-Box
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title h1
+{
+    font-size: 2rem;
+}
+.Title h1, h3
+{
+    margin: .5rem 0;
+}
+
+
+
+/*About*/
+
+.About .About-Box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.About p
+{
+       
+}
+
+.About .Background-Img
+{
+    width: 100%;
+}
+
+/*Jobs*/
