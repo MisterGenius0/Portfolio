@@ -3,19 +3,18 @@
 /*!*#435f39*! in C*/
 /*monochromatic*/
 
-footer
-{
+footer {
     color: #ffff;
     background-color: #79AB67;
     text-align: center;
 }
 
-hr
-{
+hr {
     border-width: .5rem;
     border-style: solid;
     border-radius: 15px;
     border-color: #446039;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -30,8 +29,7 @@ section {
     padding: .5rem 17%;
 }
 
-.Section-Title
-{
+.Section-Title {
     text-align: center;
     font-size: 3rem;
 }
@@ -48,7 +46,7 @@ section {
 }
 
 .NavBar {
-
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 .NavBar-Title {
@@ -93,6 +91,7 @@ section {
     padding: 5% 3%;
     width: 15rem;
     height: 15rem;
+
 }
 
 .Title .Text-Box {
@@ -155,6 +154,7 @@ section {
     border-radius: 10%;
     padding: 1rem;
     text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -173,28 +173,26 @@ section {
 .Jobs .Job-Role {
     font-size: 1.5rem;
     text-align: center;
-    
+
 }
 
 .Jobs .Job-Dsc {
-text-align: left;
+    text-align: left;
 }
 
 /*Projects*/
-.Projects
-{
+.Projects {
     text-align: center;
 }
-.Projects-Box
-{
+
+.Projects-Box {
     display: flex;
     align-content: space-around;
     justify-content: center;
-    
+
 }
 
-.Project-Card
-{
+.Project-Card {
     display: flex;
     background-color: #446039;
     margin: 1rem 1rem;
@@ -205,29 +203,26 @@ text-align: left;
     text-align: center;
     align-content: center;
     justify-content: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
-.Projects .Project-Title
-{
+.Projects .Project-Title {
     color: white;
     font-size: 2rem;
     margin-bottom: 0;
 }
 
-.Project-Disc
-{
+.Project-Disc {
     text-align: left;
     color: #e3e3e3;
 }
 
-.Projects .Project-Icon
-{
+.Projects .Project-Icon {
     margin: 1rem auto;
     width: 10rem;
 }
 
-.Projects a
-{
+.Projects a {
     color: black;
     text-decoration: none;
     padding: 1rem;
@@ -238,29 +233,28 @@ text-align: left;
     max-width: 10rem;
     background-color: #7CB068;
 }
-.Projects a:hover
-{
+
+.Projects a:hover {
     background-color: #AFF794;
 }
 
-@media (max-width: 1100px)
-{
-    .Jobs-Box
-    {
+@media (max-width: 1100px) {
+    .Jobs-Box {
         flex-direction: column;
         align-content: center;
-        
+
     }
-    .Jobs-Card
-    {
+
+    .Jobs-Card {
         margin: 0 auto;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     }
-    .Projects-Box
-    {
+
+    .Projects-Box {
         flex-direction: column;
     }
-    .Project-Card
-    {
+
+    .Project-Card {
         max-width: 20rem;
         padding: 2rem;
     }
