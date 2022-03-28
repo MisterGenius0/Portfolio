@@ -1,38 +1,121 @@
-/* Color pallet https://colorhunt.co/palette/362706464e2eacb992e9e5d6 */
-
-
-hr
-{
-    height: 0;
-    width: 20%;
-    border-width: 5px;
-    
-    
-    border-style: dotted none none none;
-    
-    color: #362706;
-}
+﻿
+/*color*/
+/*https://color.adobe.com/create/color-wheel*/
+/*#57DE57*/
+/*monochromatic*/
 
 body
 {
-    background-color: #E9E5D6;
+    margin: 0;
 }
 
-h1
+.Container
 {
-    color: #464E2E;
+    padding: .5rem 2rem;
 }
 
-h2
+/*NavBar*/
+.NavBar .Container
 {
-    color: #ACB992;
+    padding: .5rem 2rem;
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0;
+    background-color: #3D943A;
 }
 
-h3
+.NavBar
 {
-    color: #ACB992;
+    
 }
-h4
+
+.NavBar-Title
 {
-    color: #ACB992;
+    font-size: 2rem;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
 }
+
+/*NavBar Links*/
+.NavBar-Links
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.NavBar-Link
+{
+    color: #7BE077;
+    margin: 1rem;
+    text-decoration: none;
+}
+.NavBar-Link:hover
+{
+    color: #ffff;
+}
+
+/*Title*/
+
+.Title
+{
+    text-align: center;
+}
+.Title-Box
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Title .Ethan-Icon
+{
+    padding: 5% 3%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.Title .Text-Box
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title h1
+{
+    font-size: 2rem;
+}
+.Title h1, h3
+{
+    margin: .5rem 0;
+}
+
+
+
+/*About*/
+
+.About .About-Box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.About p
+{
+       
+}
+
+.About .Background-Img
+{
+    width: 100%;
+}
+
+/*Jobs*/
