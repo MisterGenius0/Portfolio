@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.4.0"
+  },
+  "scripts": {
+    "start": "parcel Dev/index.html",
+    "build": "parcel build Dev/index.html",
+    "deploy": "echo 'ethanentwistle.com' > dist/CNAME && gh-pages -d deploy"
+  }
+}

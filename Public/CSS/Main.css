@@ -1,0 +1,248 @@
+/*color*/
+/*https://color.adobe.com/create/color-wheel*/
+/*!*#435f39*! in C*/
+/*monochromatic*/
+footer {
+  color: #ffff;
+  background-color: #79AB67;
+  text-align: center;
+}
+
+hr {
+  border-width: 0.5rem;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #446039;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin: 0;
+}
+
+.Container {
+  padding: 0.5rem 17%;
+}
+
+.Section-Title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*NavBar*/
+.NavBar .Container {
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin: 0;
+  background-color: #7CB068;
+}
+
+.NavBar {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.NavBar-Title {
+  font-size: 2rem;
+  border: none;
+  color: #ffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*NavBar Links*/
+.NavBar-Links {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.NavBar-Link {
+  color: #d0f6c1;
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.NavBar-Link:hover {
+  color: #ffff;
+}
+
+/*Title*/
+.Title {
+  text-align: center;
+}
+
+.Title-Box {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Title .Ethan-Icon {
+  padding: 5% 3%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.Title .Text-Box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title h1 {
+  font-size: 2rem;
+}
+
+.Title h1, h3 {
+  margin: 0.5rem 0;
+}
+
+/*About*/
+.About .About-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Background-Img {
+  background-color: #446039;
+  width: 100%;
+}
+
+/*Jobs*/
+.Jobs {
+  background-color: #446039;
+}
+
+.Jobs h1 {
+  color: #ffff;
+}
+
+.Jobs .Jobs-Box {
+  display: flex;
+  justify-content: space-around;
+  flex: 3;
+}
+
+.Jobs .Jobs-Card {
+  margin: 3rem 1rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 10%;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Jobs .Job-Company {
+  font-size: 2rem;
+  color: #446039;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Jobs .Job-Range {
+  font-size: 0.8rem;
+  color: #9EAB9A;
+}
+
+.Jobs .Job-Role {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Jobs .Job-Dsc {
+  text-align: left;
+}
+
+/*Projects*/
+.Projects {
+  text-align: center;
+}
+
+.Projects-Box {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.Project-Card {
+  display: flex;
+  background-color: #446039;
+  margin: 1rem 1rem;
+  width: 30rem;
+  flex-direction: column;
+  border-radius: 10%;
+  padding: 1rem;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Projects .Project-Title {
+  color: #ffff;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.Project-Disc {
+  text-align: left;
+  color: #e6e6e6;
+}
+
+.Projects .Project-Icon {
+  margin: 1rem auto;
+  width: 10rem;
+}
+
+.Projects a {
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  border-style: unset;
+  border-radius: 15px;
+  max-width: 10rem;
+  background-color: #7CB068;
+}
+
+.Projects a:hover {
+  background-color: #99c289;
+}
+
+@media (max-width: 1100px) {
+  .Jobs-Box {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .Jobs-Card {
+    margin: 0 auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  }
+
+  .Projects-Box {
+    flex-direction: column;
+  }
+
+  .Project-Card {
+    max-width: 20rem;
+    padding: 2rem;
+  }
+}
+
+/*# sourceMappingURL=Main.css.map */
