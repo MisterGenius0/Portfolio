@@ -10,6 +10,6 @@
   "scripts": {
     "start": "parcel Dev/index.html",
     "build": "parcel build Dev/index.html",
-    "deploy": "echo 'ethanentwistle.com' > dist/CNAME && gh-pages -d deploy"
+    "deploy": "echo 'ethanentwistle.com' > dist/CNAME && gh-pages -d dist"
   }
 }
